@@ -16,7 +16,7 @@ env:
 
 jobs:
   build_and_deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
     steps:
     - name: Check Environment Variables
       run: |
